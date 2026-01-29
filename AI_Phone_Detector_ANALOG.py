@@ -801,8 +801,7 @@ class MainWindow(QMainWindow):
         
         # Footer
         footer = QLabel("═══════════════════════════════════════\n"
-                       " © 2026 Nanda NW – All rights reserved v3.0
-                                 https://nnws.qzz.io"
+                       " © 2026 Nanda NW – All rights reserved v3.0"
                        "═══════════════════════════════════════")
         footer.setStyleSheet("""
             color: #00aa00;
