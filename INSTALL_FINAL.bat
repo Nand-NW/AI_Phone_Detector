@@ -82,7 +82,7 @@ echo Creating START.bat...
 echo @echo off > START.bat
 echo cls >> START.bat
 echo call venv\Scripts\activate.bat >> START.bat
-echo python AI_Phone_Detector_ANALOG.py >> START.bat
+echo python AI_Phone_Detector_PRO_v4.py >> START.bat
 echo pause >> START.bat
 
 echo Done!
@@ -91,6 +91,6 @@ echo Starting in 3 seconds...
 timeout /t 3 >nul
 
 cls
-python AI_Phone_Detector_ANALOG.py
+python AI_Phone_Detector_PRO_v4.py
 
 pause
